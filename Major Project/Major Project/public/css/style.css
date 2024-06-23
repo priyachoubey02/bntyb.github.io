@@ -1,0 +1,83 @@
+/* Boilerplate.ejs */
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.B-head{
+    display: flex;
+    align-items: center;
+}
+.container{
+    flex: 1;
+}
+
+/* Navbar */
+.container-fluid{
+    background-color:rgb(228, 230, 231);
+    border-bottom: 1px solid black;
+}
+/* Footer */
+.foter{
+    background-color: #eeeaea;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.fo{
+    position: relative;
+    left: 30rem;
+    /* width: 100%; */
+}
+.social-media{
+    position: relative;
+    left: 33.5rem;
+    width: 100%;
+}
+.fa-brands{
+    margin: 0rem 1rem;
+}
+
+/* New */
+.form-control{
+    border: 1px black solid;
+}
+/* Index */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding:0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Show */
+.card-text{
+    margin-top: 1rem;
+}
+.all-btn{
+    display: flex;
+}
+.show-img{
+    border: 2px black solid;
+}
